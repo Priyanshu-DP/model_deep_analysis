@@ -1,0 +1,35 @@
+{
+  "common": {
+    "brand_name" : "Talenti",
+    "rroi_excel_file_path": "B3-INC08_ICE_Talenti_MAY25_Model_Result_Analysis.xlsx",
+    "sheet_name":  ["B3-INC07", "B3-INC08"],
+    "all_kpis": ["Overall Dollar Sales", "Cost", "Impression", "Offline Lagged Impression"],
+    "output_file_name" : "Talenti_INC08.xlsx" 
+  },
+  "CPA": {
+    "granularity_levels" : ["Media Type", "Product Line", "Master Channel", "Channel", "Platform", "Audience"],
+    "pivot_data_range": ["2025-04", "2025-05"]
+    },
+
+  "CP": {
+    "granularity_levels" : ["Media Type", "Product Line", "Master Channel", "Channel", "Platform"],
+    "pivot_data_range": [ "2025-04", "2025-05"]
+    },
+
+  "RollingMonthCPA": {
+    "granularity_levels" : ["Media Type", "Product Line", "Master Channel", "Channel", "Platform", "Audience"],
+    "pivot_data_range": ["2025-03", "2025-04"],
+    "specific_kpis": ["CPM", "ROI", "Offline Lagged Impression"]
+    },
+
+  "MediaType": {
+    "granularity_levels": ["Media Type"],
+    "pivot_data_range": [ "2025-04", "2025-05"]
+    },
+
+  "MediaType_RollingMonth": {
+    "granularity_levels": ["Media Type"],
+    "pivot_data_range": [ "2025-03", "2025-04"],
+    "specific_kpis": ["CPM", "ROI", "Impression"]
+    }
+}
